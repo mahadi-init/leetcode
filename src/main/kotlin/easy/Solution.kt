@@ -30,12 +30,12 @@ class Solution : Problem {
 
         for(i in prices.indices){
             if (prices[i] < min) {
-                min = prices[i];
-                index = i;
+                min = prices[i]
+                index = i
             }
 
             if ((prices[index] - prices[i]) < maxDiff) {
-                maxDiff = prices[index] - prices[i];
+                maxDiff = prices[index] - prices[i]
             }
         }
 

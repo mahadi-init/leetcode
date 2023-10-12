@@ -41,4 +41,17 @@ IntelliJ Idea have build in **Run** and **Debug** functionality.
 16. [x] Number of Good Pairs
 17. [x] Richest Customer Wealth
 18. [x] Maximum Number of Words Found in Sentences
+19. [x] Difference Between Element Sum and Digit Sum of an Array
+20. [x] Roman to Integer
+21. [x] Detect Capital
+22. [x] Maximum Count of Positive Integer and Negative Integer
+23. [x] Kids With the Greatest Number of Candies
+24. [x] Decode XORed Array
+25. [x] How Many Numbers Are Smaller Than the Current Number
+26. [x] Jewels and Stones
+27. [x] Goal Parser Interpretation
+
+**Note :** Current Easy Problems Beating Percentage is **61.9%**
+
+
 

@@ -41,4 +41,22 @@ interface Problem {
     fun maximumWealth(accounts: Array<IntArray>): Int
 
     fun mostWordsFound(sentences: Array<String>): Int
+
+    fun differenceOfSum(nums: IntArray): Int
+
+    fun romanToInt(s: String): Int
+
+    fun detectCapitalUse(word: String): Boolean
+
+    fun maximumCount(nums: IntArray): Int
+
+    fun kidsWithCandies(candies: IntArray, extraCandies: Int): List<Boolean>
+
+    fun decode(encoded: IntArray, first: Int): IntArray
+
+    fun smallerNumbersThanCurrent(nums: IntArray): IntArray
+
+    fun numJewelsInStones(jewels: String, stones: String): Int
+
+    fun interpret(command: String): String
 }

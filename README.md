@@ -53,5 +53,13 @@ IntelliJ Idea have build in **Run** and **Debug** functionality.
 
 **Note :** Current Easy Problems Beating Percentage is **61.9%**
 
+### Medium 
+1. [x] Maximum Ice Cream Bars
+2. [x] Max Increase to Keep City Skyline
+3. [x] Minimum Number of Arrows to Burst Balloons
+4. [x] 	Minimum Rounds to Complete All Tasks
+
+**Note :** Current Medium Problems Beating Percentage is **17.60%**
+
 
 

@@ -28,7 +28,7 @@ class Solution : Problem {
         var min = prices[index]
         var maxDiff = 0
 
-        for(i in prices.indices){
+        for (i in prices.indices) {
             if (prices[i] < min) {
                 min = prices[i]
                 index = i
@@ -43,10 +43,10 @@ class Solution : Problem {
     }
 
     override fun containsDuplicate(nums: IntArray): Boolean {
-        val map = mutableMapOf<Int,Int>()
+        val map = mutableMapOf<Int, Int>()
 
-        for (i in nums.indices){
-            if(map.containsKey(nums[i])){
+        for (i in nums.indices) {
+            if (map.containsKey(nums[i])) {
                 return true
             }
 
@@ -64,11 +64,11 @@ class Solution : Problem {
     }
 
     override fun fib(n: Int): Int {
-        if(n <= 1){
+        if (n <= 1) {
             return n
         }
 
-        return fib(n-1) + fib(n-2)
+        return fib(n - 1) + fib(n - 2)
     }
 
     override fun reverseWords(s: String): String {
@@ -118,5 +118,114 @@ class Solution : Problem {
         }
 
         return count
+    }
+
+    override fun sortedSquares(nums: IntArray): IntArray {
+        val res = IntArray(nums.size)
+
+        for (i in nums.indices) {
+            res[i] = nums[i] * nums[i]
+        }
+        return res.sortedArray()
+    }
+
+    override fun buildArray(nums: IntArray): IntArray {
+        val arr = IntArray(nums.size)
+
+        for (i in nums.indices) {
+            arr[i] = nums[nums[i]]
+        }
+
+        return arr
+    }
+
+    override fun getConcatenation(nums: IntArray): IntArray {
+        return nums.plus(nums)
+    }
+
+    override fun finalValueAfterOperations(operations: Array<String>): Int {
+        var count = 0
+
+        for (i in operations.indices) {
+            when (operations[i]) {
+                "++X" -> count++
+                "X++" -> count++
+                "--X" -> count--
+                "X--" -> count--
+            }
+        }
+
+        return count
+    }
+
+    override fun shuffle(nums: IntArray, n: Int): IntArray {
+        val list = mutableListOf<Int>()
+
+        val x = nums.size / 2
+        for (i in 0..<x) {
+            list.add(nums[i])
+            list.add(nums[i + n])
+        }
+
+        return list.toIntArray()
+    }
+
+    override fun runningSum(nums: IntArray): IntArray {
+        val list = mutableListOf<Int>()
+
+        var count = 0
+        for (i in nums.indices) {
+            count += nums[i]
+            list.add(count)
+        }
+
+        return list.toIntArray()
+    }
+
+    override fun numIdenticalPairs(nums: IntArray): Int {
+        var count = 0
+
+        for (i in nums.indices) {
+            for (j in i + 1..<nums.size) {
+                if (nums[i] == nums[j]) {
+                    count++
+                }
+            }
+        }
+
+        return count
+    }
+
+    override fun maximumWealth(accounts: Array<IntArray>): Int {
+        var max = 0
+        var count: Int
+
+        for (i in accounts.indices) {
+            count = 0
+
+            accounts[i].forEach {
+                count += it
+            }
+
+            if (count > max) {
+                max = count
+            }
+        }
+
+        return max
+    }
+
+    override fun mostWordsFound(sentences: Array<String>): Int {
+        var max = 0
+
+        sentences.map {
+            val count = it.split(" ").size
+
+            if (count > max) {
+                max = count
+            }
+        }
+
+        return max
     }
 }

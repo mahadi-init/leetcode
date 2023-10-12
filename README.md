@@ -12,27 +12,33 @@ name `Solution` (implements the interface and solve the problems).
 
 To run kotlin code, JDK(Java Development Kit) is required. To download JDK, visit Oracle Java download page. <br/>
 
-**_Note_:** For better experience, use **IntelliJ Idea IDE**
+**Note:** For better experience, use **IntelliJ Idea IDE**
 
 ### Code Execution Instruction
 
 It's possible to run kotlin code from command Line, but it's recommended to IntelliJ Idea for Kotlin Development.
 IntelliJ Idea have build in **Run** and **Debug** functionality.
 
-## Solutions
+### Solutions
 
-### **Easy**
+### Easy
 
-| #  | Title                           | Solution                                                                              | 
-|----|---------------------------------|---------------------------------------------------------------------------------------|
-| 1  | Two Sum                         | https://leetcode.com/problems/two-sum/submissions/1071537101/                         |
-| 2  | Palindrome Number               | https://leetcode.com/problems/palindrome-number/submissions/1071543158/               |
-| 3  | Best Time to Buy and Sell Stock | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1071546343/ |
-| 4  | Contains Duplicate              | https://leetcode.com/problems/contains-duplicate/submissions/1071548613/              |
-| 5  | Valid Anagram                   | https://leetcode.com/problems/valid-anagram/submissions/1071555140/                   |
-| 6  | Fibonacci Number                | https://leetcode.com/problems/fibonacci-number/submissions/1071557763/                |
-| 7  | Reverse Words in a String III   | https://leetcode.com/problems/reverse-words-in-a-string-iii/submissions/1071577552/   |
-| 8  | Binary Search                   | https://leetcode.com/problems/binary-search/submissions/1071582189/                   |
-| 9  | Reverse String                  | https://leetcode.com/problems/reverse-string/submissions/1071587097/                  |
-| 10 | Delete Columns to Make Sorted   | https://leetcode.com/problems/delete-columns-to-make-sorted/submissions/1071588507/   |
+1. [x] Two Sum
+2. [x] Palindrome Number
+3. [x] Best Time to Buy and Sell Stock
+4. [x] Contains Duplicate
+5. [x] Valid Anagram
+6. [x] Fibonacci Number
+7. [x] Reverse Words in a String III
+8. [x] Binary Search
+9. [x] Reverse String
+10. [x] Squares of a Sorted Array
+11. [x] Build Array from Permutation
+12. [x] Concatenation of Array
+13. [x] Final Value of Variable After Performing Operations
+14. [x] Shuffle the Array
+15. [x] Running Sum of 1d Array
+16. [x] Number of Good Pairs
+17. [x] Richest Customer Wealth
+18. [x] Maximum Number of Words Found in Sentences
 

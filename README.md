@@ -1,6 +1,9 @@
 # Leetcode
 
+
 Solution of leetcode problems with **Kotlin**
+<br/>
+Check my Leetcode Profile : [mahadi-init](https://leetcode.com/mahadi-init/)
 
 ## Instructions
 
@@ -60,6 +63,10 @@ IntelliJ Idea have build in **Run** and **Debug** functionality.
 4. [x] 	Minimum Rounds to Complete All Tasks
 
 **Note :** Current Medium Problems Beating Percentage is **17.60%**
+
+### Contest
+1. [x] Divisible and Non-divisible Sums Difference (Easy)
+2. [x] Minimum Processing Time (medium)
 
 
 

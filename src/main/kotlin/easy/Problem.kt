@@ -59,4 +59,6 @@ interface Problem {
     fun numJewelsInStones(jewels: String, stones: String): Int
 
     fun interpret(command: String): String
+
+    fun defangIPaddr(address: String): String
 }

@@ -1,6 +1,5 @@
 # Leetcode
 
-
 Solution of leetcode problems with **Kotlin**
 <br/>
 Check my Leetcode Profile : [mahadi-init](https://leetcode.com/mahadi-init/)
@@ -53,20 +52,48 @@ IntelliJ Idea have build in **Run** and **Debug** functionality.
 25. [x] How Many Numbers Are Smaller Than the Current Number
 26. [x] Jewels and Stones
 27. [x] Goal Parser Interpretation
+28. [x] Defanging an IP Address
 
-**Note :** Current Easy Problems Beating Percentage is **61.9%**
 
-### Medium 
+### Medium
+
 1. [x] Maximum Ice Cream Bars
 2. [x] Max Increase to Keep City Skyline
 3. [x] Minimum Number of Arrows to Burst Balloons
-4. [x] 	Minimum Rounds to Complete All Tasks
-
-**Note :** Current Medium Problems Beating Percentage is **17.60%**
+4. [x] Minimum Rounds to Complete All Tasks
 
 ### Contest
+
 1. [x] Divisible and Non-divisible Sums Difference (Easy)
 2. [x] Minimum Processing Time (medium)
+
+# Special Problem Solution
+
+Typescript specific problem solution using `Typescript`
+
+## Instructions
+
+Folder structure is same as kotlin but as typescript isn't OOP oriented,
+Interface and class hasn't used.Instead, the file names are same as problem title.
+
+## Code Execution Instruction
+
+First install bun globally.
+
+```shell
+npm i -g bun
+```
+
+To run a file, call the function from main function and run the main function.
+
+```shell
+bun run main.ts
+```
+
+### Typescript
+
+1. [x] Return Length of Arguments Passed (Easy)
+2. [x] Add Two Promises
 
 
 

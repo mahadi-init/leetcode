@@ -368,6 +368,7 @@ class Solution : Problem {
                     str += 'o'
                     i++
                 }
+
                 else -> {
                     str += "al"
                     i += 3
@@ -377,5 +378,19 @@ class Solution : Problem {
         }
 
         return str
+    }
+
+    override fun defangIPaddr(address: String): String {
+        var value = ""
+
+        address.toCharArray().map {
+            if (it == '.') {
+                value += "[.]"
+            } else {
+                value += it
+            }
+        }
+
+        return value
     }
 }

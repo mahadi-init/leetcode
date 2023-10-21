@@ -53,7 +53,9 @@ IntelliJ Idea have build in **Run** and **Debug** functionality.
 26. [x] Jewels and Stones
 27. [x] Goal Parser Interpretation
 28. [x] Defanging an IP Address
-
+29. [x] Convert the Temperature
+30. [x] Smallest Even Multiple
+31. [x] Add Two Integers
 
 ### Medium
 
@@ -94,6 +96,9 @@ bun run main.ts
 
 1. [x] Return Length of Arguments Passed (Easy)
 2. [x] Add Two Promises
+3. [x] Array Wrapper
+4. [x] Allow One Function Call
+
 
 
 

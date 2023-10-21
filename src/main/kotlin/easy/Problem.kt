@@ -61,4 +61,10 @@ interface Problem {
     fun interpret(command: String): String
 
     fun defangIPaddr(address: String): String
+
+    fun convertTemperature(celsius: Double): DoubleArray
+
+    fun smallestEvenMultiple(n: Int): Int
+
+    fun sum(num1: Int, num2: Int): Int
 }

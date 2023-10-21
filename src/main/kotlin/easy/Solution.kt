@@ -393,4 +393,17 @@ class Solution : Problem {
 
         return value
     }
+
+    override fun convertTemperature(celsius: Double): DoubleArray {
+        return doubleArrayOf(celsius + 273.15, celsius * 1.80 + 32.00)
+    }
+
+    override fun smallestEvenMultiple(n: Int): Int {
+        return if (n % 2 == 0) n
+        else n * 2
+    }
+
+    override fun sum(num1: Int, num2: Int): Int {
+        return num1 + num2
+    }
 }

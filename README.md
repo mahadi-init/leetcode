@@ -68,10 +68,11 @@ IntelliJ Idea have build in **Run** and **Debug** functionality.
 
 1. [x] Divisible and Non-divisible Sums Difference (Easy)
 2. [x] Minimum Processing Time (medium)
+3. [x] Minimum Sum of Mountain Triplets I
 
-# Special Problem Solution
+# 30 Days of Javascript
 
-Typescript specific problem solution using `Typescript`
+Javascript / Typescript specific problem solution using `Typescript`
 
 ## Instructions
 
@@ -94,10 +95,16 @@ bun run main.ts
 
 ### Typescript
 
-1. [x] Return Length of Arguments Passed (Easy)
-2. [x] Add Two Promises
-3. [x] Array Wrapper
-4. [x] Allow One Function Call
+1. [x] Create Hello World Function
+2. [x] Counter
+3. [x] To Be Or Not To Be
+4. [x] Counter II
+5. [x] Apply Transform Over Each Element in Array
+6. [x] Return Length of Arguments Passed
+7. [x] Allow One Function Call
+8. [x] Add Two Promises
+9. [x] Sleep
+10. [x] Array Wrapper
 
 
 

@@ -29,4 +29,28 @@ class Solution : Problem {
         }
         return result
     }
+
+    override fun minimumSum(nums: IntArray): Int {
+        if (nums.size < 3) return -1
+
+        var minSum = Int.MAX_VALUE
+
+        for (i in 1..<nums.size - 1) {
+            val currentNum = nums[i]
+
+            for (j in 0..<i) {
+                val numJ = nums[j]
+                if (numJ < currentNum) {
+                    for (k in i + 1..<nums.size) {
+                        val numK = nums[k]
+                        if (currentNum > numK) {
+                            minSum = minOf(minSum, numJ + currentNum + numK)
+                        }
+                    }
+                }
+            }
+        }
+
+        return if (minSum == Int.MAX_VALUE) -1 else minSum
+    }
 }

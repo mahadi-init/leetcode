@@ -3,7 +3,7 @@
 Solution of leetcode problems with **Kotlin**
 <br/>
 
-![86.png](./images/86.png)
+![86.png](./images/92.png)
 
 Check my Leetcode Profile : [mahadi-init](https://leetcode.com/mahadi-init/)
 

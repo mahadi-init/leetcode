@@ -3,7 +3,7 @@
 Solution of leetcode problems with **Kotlin**
 <br/>
 
-![86.png](./images/97.png)
+![86.png](./images/105.png)
 
 Check my Leetcode Profile : [mahadi-init](https://leetcode.com/mahadi-init/)
 
@@ -108,7 +108,3 @@ bun run main.ts
 8. [x] Add Two Promises
 9. [x] Sleep
 10. [x] Array Wrapper
-
-
-
-
